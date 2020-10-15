@@ -4,4 +4,6 @@
 | GET        | /sushis/:id     | sushis#show   |
 | GET        | /sushis/new     | sushis#new    |
 | POST       | /sushis         | sushis#create |
-
+| GET        | /sushis/:id/edit| sushis#edit   |
+| PATCH      | /sushis/:id     | sushis#update |
+| DELETE     | /sushis/:id     | sushis#destroy|
