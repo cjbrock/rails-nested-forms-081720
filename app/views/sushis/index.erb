@@ -3,7 +3,9 @@
     <div class="row">
         <div class="col-xs-6">
             <ul>
-
+                <% @sushis.each do | sushi | %>
+                    <li><%= sushi.name %></li>
+                <% end %>
             </ul>
         </div>
         <div class="col-xs-6">
