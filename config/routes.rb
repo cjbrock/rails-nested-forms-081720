@@ -6,7 +6,7 @@ resources :sushis
 #   get '/sushis', to: "sushis#index"
 
 # #new
-#   get '/sushis/new', to: "sushis#new", as: "new_sushis"  
+#   get '/sushis/new', to: "sushis#new", as: "new_sushi"  
 
 # #create
 
